@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan Anderson Portal Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            line-height: 1.6;
+        }
+
+        #wrapper {
+            width: min(100% - 2rem, 1100px);
+            margin: 0 auto;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 40px;
+            width: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #6987c9;
+        }
+
+        .name {
+            color: #6987c9;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .nav {
+            border: 1px solid #77966d;
+            padding: 20px 0;
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        .nav a:hover {
+            background-color: #6987c9;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        header {
+            background: #353535;
+        }
+
+        .header {
+            position: relative;
+            text-align: center;
+            padding: 40px 0 20px;
+        }
+
+        .header-container {
+            color: #6987c9;
+            margin: 0 auto;
+        }
+
+        header,
+        nav,
+        main,
+        footer {
+            font-family: 'Courier New', Courier, monospace;
+            padding: 16px;
+            border: 1px solid #77966d;
+            margin: 8px;
+            color: #6987c9;
+        }
+
+        .nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav a {
+            background-color: #6987c9;
+            color: #353535;
+            padding: 10px 20px;
+            border-radius: 2px;
+            text-decoration: none;
+            color: #353535;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #77966d;
+            border-radius: 8px;
+        }
+
+        table {
+            font-family: 'Courier New', Courier, monospace;
+            width: 100%;
+            color: #77966d;
+
+            border-collapse: collapse;
+            margin-top: 12px;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        form {
+            display: grid;
+            gap: 8px;
+            margin-top: 16px;
+        }
+
+        input,
+        textarea,
+        button {
+            padding: 8px;
+            border: 1px solid grey;
+            border-radius: 4px;
+        }
+
+        #favorite-things ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #favorite-things li {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            gap: 15px;
+        }
+
+        #favorite-things img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <div class="header">
+            <img class="logo" src="images/Minimalist_EA_ Logo Design.png" alt="my logo">
+            <h1 class="name">Ethan Anderson</h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a href="portal.html">Home</a>
+                </li>
+                <li>
+                    <a href="wwr/index.html">WWR</a>
+                </li>
+                <li>
+                    <a href="ice.html">ICE</a>
+                </li>
+                <li>
+                    <a href="#">About Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Purpose of This Page</h2>
+        <p>I created this page to have access to all of my web design to date all in one easy to access space. It also
+            tells a little about who I am and my availability.</p>
+        <div id="favorite-things">
+            <h3>My Favorite Things</h3>
+            <ul>
+                <li><span>Grace</span> <img src="images/DSC00179.jpeg" alt="This is my fience"></li>
+                <li><span>Sports</span> <img src="images/jays.png" alt="Hockey is my favorite sport"></li>
+                <li><span>Boating</span> <img src="images/wakeboard.jpg" alt="This is me foil boarding">
+                </li>
+            </ul>
+        </div>
+        <h3>Weekly Schedule</h3>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Activity</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>7:45-8:45 Physiology. 9:00-10:00 Sociology 10:15-11:15 Web Design</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>7:45-8:45 Physiology</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>7:45-8:45 Physiology 9:00-10:00 Sociology 10:15-11:15 Web Design</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>7:45-8:45 Physiology</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>9:00-10:00 Sociology</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>Stuff</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>Stuff</td>
+            </tr>
+        </table>
+        <h3>Contact Me</h3>
+        <form>
+            <label>Name: <input type="text" placeholder="Your name"></label> <label>Email: <input type="email"
+                    placeholder="you@example.com"></label> <label>Message:
+                <textarea rows="4" placeholder="Write something..."></textarea></label> <button
+                type="submit">Send</button>
+        </form>
+        <p>Check out <a href="https://google.com" target="_blank">this link</a> for more</p>
+    </main>
+
+    <footer>
+        <p>© 2025 Ethan Anderson</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan Anderson Portal Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            line-height: 1.6;
+        }
+
+        #wrapper {
+            width: min(100% - 2rem, 1100px);
+            margin: 0 auto;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 40px;
+            width: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #6987c9;
+        }
+
+        .name {
+            color: #6987c9;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .nav {
+            border: 1px solid #77966d;
+            padding: 20px 0;
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        .nav a:hover {
+            background-color: #6987c9;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        header {
+            background: #353535;
+        }
+
+        .header {
+            position: relative;
+            text-align: center;
+            padding: 40px 0 20px;
+        }
+
+        .header-container {
+            color: #6987c9;
+            margin: 0 auto;
+        }
+
+        header,
+        nav,
+        main,
+        footer {
+            font-family: 'Courier New', Courier, monospace;
+            padding: 16px;
+            border: 1px solid #77966d;
+            margin: 8px;
+            color: #6987c9;
+        }
+
+        .nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav a {
+            background-color: #6987c9;
+            color: #353535;
+            padding: 10px 20px;
+            border-radius: 2px;
+            text-decoration: none;
+            color: #353535;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+
+
+        input,
+        textarea,
+        button {
+            padding: 8px;
+            border: 1px solid grey;
+            border-radius: 4px;
+        }
+
+        .ice-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .ice-card {
+            background: #ffffff;
+            border: 2px solid #d4d4d4;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .ice-card h2 {
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .ice-card h2 a {
+            color: #6987c9;
+        }
+
+        .ice-card p {
+            color: #353535;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <img class="logo" src="images/Minimalist _EA_ Logo Design.png" alt="my logo">
+            <h1 class="name">Ethan Anderson</h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wwr/index.html">WWR</a></li>
+                <li><a href="#">ICE</a></li>
+                <li><a href="#">About Me</a></li>
+            </ul>
+        </nav>
+
+
+        <main class="ice-container">
+            <div class="ice-card">
+                <h2><a href="prophet_cards/nelson.html">Prophet Card</a></h2>
+                <p>Created a card of President Nelson</p>
+            </div>
+            <div class="ice-card">
+                <h2><a href="apostle_spotlight/apostles.html">Apostle Spotlight</a></h2>
+                <p>Followed a design to play with CSS to create a page to spotlight the apostles</p>
+            </div>
+            <div class="ice-card">
+                <h2><a href="favorite_devo.html">Favorite Devo</a></h2>
+                <p>Practiced making forms and tables with HTML and CSS to display and prepare to collect data.</p>
+            </div>
+            <div class="ice-card">
+                <h2><a href="halloween/index.html">Holiday Page</a></h2>
+                <p>Practiced designing in CSS without changing HTML</p>
+            </div>
+            <div class="ice-card">
+                <h2><a href="grid_flags/flags.html">Country Flags</a></h2>
+                <p>Played with CSS grid to create different country flags.</p>
+            </div>
+            <div class="ice-card">
+                <h2><a href="positioning/positioning.html">CSS Positioning</a></h2>
+                <p>Demonstrated different CSS positioning</p>
+            </div>
+            <div class="ice-card">
+                <h2><a href="gallery/gallery.html">Image Gallery</a></h2>
+                <p>Used a photo editor to change image file sized and created thumbnail images.</p>
+            </div>
+            <div class="ice-card">
+                <h2><a href="signup/signup.html">Sign up Form</a></h2>
+                <p>Practiced using CSS to style a form used to collect data</p>
+            </div>
+        </main>
+
+
+        <footer>
+            <p>© 2025 Ethan Anderson</p>
+        </footer>
+
+</body>
+
+</html>
