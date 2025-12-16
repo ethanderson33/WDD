@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD130 Project Reflection | Ethan Anderson</title>
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<style>
+    /* ---------- Base / Reset ---------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  line-height: 1.6;
+  color: #000; /* default readable text */
+}
+
+/* ---------- Layout ---------- */
+#wrapper {
+  width: min(100% - 2rem, 1100px);
+  margin: 0 auto;
+}
+
+/* ---------- Header ---------- */
+header {
+  background: #353535;
+  border: 1px solid #77966d;
+  margin: 8px;
+  padding: 16px;
+  font-family: "Courier New", Courier, monospace;
+  color: #6987c9;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  padding: 40px 0 20px;
+}
+
+.header-container {
+  margin: 0 auto;
+  color: #6987c9;
+}
+
+.name {
+  color: #6987c9;
+  font-size: 2.5rem;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #6987c9;
+}
+
+/* ---------- Nav ---------- */
+.nav {
+  border: 1px solid #77966d;
+  padding: 20px 0;
+  margin-top: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+.nav a {
+  background-color: #6987c9;
+  color: #353535;
+  padding: 10px 20px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+.nav a:hover {
+  background-color: #6987c9;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+main {
+  border: 1px solid #77966d;
+  margin: 8px;
+  padding: 16px;
+  font-family: "Courier New", Courier, monospace;
+  color: #000; 
+}
+
+main h1,
+main h2,
+main h3 {
+  color: #000;
+  margin-top: 0.25rem;
+}
+
+main p {
+  margin: 0.5rem 0 1rem;
+}
+
+
+main ul {
+  margin: 0.5rem 0 1.25rem;
+  padding-left: 1.5rem;
+}
+
+main li {
+  margin: 0.35rem 0;
+}
+
+
+main a {
+  color: #000;
+  font-weight: 600;
+}
+
+main a:hover {
+  color: #6987c9;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  border: 1px solid #77966d;
+  margin: 8px;
+  padding: 16px;
+  font-family: "Courier New", Courier, monospace;
+  color: #6987c9;
+  text-align: center;
+}
+
+
+
+
+
+</style>
+
+
+
+<header>
+        <div class="header">
+            <img class="logo" src="images/Minimalist_EA_ Logo Design.png" alt="my logo">
+            <h1 class="name">Ethan Anderson</h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a href="portal.html">Home</a>
+                </li>
+                <li>
+                    <a href="wwr/index.html">WWR</a>
+                </li>
+                <li>
+                    <a href="ice.html">ICE</a>
+                </li>
+                <li>
+                    <a href="dev.html">Developer Assignment</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1>WDD130 Project Reflection</h1>
+            <p class="subtitle">Client Developer Final Project</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="card">
+            <h2>Project Links</h2>
+            <div class="link-grid">
+                <a class="link-card" href="https://bridgerkeddington.github.io/wdd130-ethan_anderson/" target="_blank"
+                    rel="noreferrer">
+                    <h3>Client Page</h3>
+                </a>
+
+                <a class="link-card" href="https://ethanderson33.github.io/wdd130-chesley/" target="_blank"
+                    rel="noreferrer">
+                    <h3>Lead Developer Page</h3>
+                </a>
+
+                <a class="link-card" href="https://beauduke2014-cmyk.github.io/wdd130-Rowley/" target="_blank"
+                    rel="noreferrer">
+                    <h3>Iterative Flux Page</h3>
+                </a>
+
+                <a class="link-card" href="https://github.com/jadensowards11/ThereopodArchive.git" target="_blank"
+                    rel="noreferrer">
+                    <h3>Thereopod Archive</h3>
+                    <p>The only repo link I could access</p>
+                </a>
+            </div>
+        </section>
+
+
+        <section class="card">
+            <h2>Client Experience</h2>
+            <ul class="">
+                <li><strong>Client page link:</strong> <a
+                        href="https://bridgerkeddington.github.io/wdd130-ethan_anderson/" target="_blank"
+                        rel="noreferrer">View on GitHub Pages</a></li>
+                <li><strong>Images:</strong> I picked fitting images using my own photos and images from rivers I’ve
+                    fished.</li>
+                <li><strong>Team process:</strong> We used Teams to communicate.</li>
+                <li><strong>Difficulties:</strong> No difficulties.</li>
+                <li><strong>Would I do this again?</strong> Yes.</li>
+                <li><strong>One improvement:</strong> Organize my work better so it’s easier for the team.</li>
+            </ul>
+        </section>
+
+
+        <section class="card">
+            <h2>Lead Developer Experience</h2>
+            <ul class="bullets">
+                <li><strong>Lead developer page link:</strong> <a href="https://ethanderson33.github.io/wdd130-chesley/"
+                        target="_blank" rel="noreferrer">View on GitHub Pages</a></li>
+                <li><strong>Communication:</strong> I used messages.</li>
+                <li><strong>Issues:</strong> A little—no major issues personally.</li>
+                <li><strong>What surprised me:</strong> I did better than expected.</li>
+                <li><strong>Main challenge:</strong> One junior dev had trouble and the other didn’t, so I’m confused
+                    how to help when I did the same steps for both.</li>
+                <li><strong>How it felt:</strong> Stressful—GitHub is confusing and I’m not great at this yet.</li>
+            </ul>
+        </section>
+
+
+        <section class="card">
+            <h2>Junior Developer Challenges (What Happened)</h2>
+            <div class="two-col">
+                <div>
+                    <h3>Theropod Archive Jr Dev</h3>
+                    <ul class="bullets">
+                        <li><strong>Repo link:</strong> <a href="https://github.com/jadensowards11/ThereopodArchive.git"
+                                target="_blank" rel="noreferrer">ThereopodArchive.git</a></li>
+                        <li>I completed all HTML/CSS I was assigned.</li>
+                        <li>I think they didn’t add me to the repo correctly.</li>
+                        <li>I reached out ~10 times with no response.</li>
+                        <li>I sent my HTML/CSS so the lead could add it later.</li>
+                        <li><strong>Problem:</strong> My work wouldn’t commit to git.</li>
+                    </ul>
+                    <p class="note">
+                        If needed, I can paste the HTML/CSS I wrote so it can be merged correctly.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>General Junior Dev Notes</h3>
+                    <ul class="bullets">
+                        <li><strong>Communication:</strong> Messages</li>
+                        <li><strong>Did I complete tasks?</strong> Yes</li>
+                        <li><strong>Was it successful overall?</strong> Yes</li>
+                        <li><strong>Biggest blocker:</strong> GitHub committing/pushing + repo permissions confusion
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="card">
+            <h2>What I Learned</h2>
+            <ul class="bullets">
+                <li><strong>Hardest part:</strong> Working with GitHub (very confusing).</li>
+                <li><strong>Best part:</strong> Seeing how a whole semester of learning can apply all at once.</li>
+                <li><strong>Frustrations:</strong> Mostly GitHub.</li>
+                <li><strong>Was it worth it?</strong> Yes—good experience and practice.</li>
+            </ul>
+        </section>
+
+
+        <footer class="site-footer">
+            <p>© <span id="year"></span> Ethan Anderson • WDD130</p>
+        </footer>
+    </main>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
